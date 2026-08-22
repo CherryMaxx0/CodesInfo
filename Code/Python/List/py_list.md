@@ -17,6 +17,7 @@ list=[]
 list[0]=1
 ```
 The index is set to 0 as default.
+___
 ### [[py_Built-in_Functions|Built-in Function]]s for List
 There are built-in functions that can be use to modify list in different ways instead of using index or user-defined function.
 #### Few of the basic ones are:
@@ -31,3 +32,4 @@ There are built-in functions that can be use to modify list in different ways in
 - [[py_reverse|Reverse]]
 - [[py_extend|Extend]]
 - [[py_clear|Clear]]
+
