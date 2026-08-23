@@ -1,4 +1,7 @@
 ## [[py_User-Defined_Function|User Defined Function]]s
+
+^8e5a28
+
 This is a custom made up function, to ease and make a block of code to be reusable instead of writing same block of code repeatedly.
 ```python
 def sum(x,y):

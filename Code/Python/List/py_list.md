@@ -1,4 +1,4 @@
-List is literary like an [[cpp_array|array]] in c++. It looks like this below:
+List is literary like an [[cpp_array|array]] in c++. It looks like this below: ^29f46a
 ```python
 list = ["Cat","apple"]
 list_numbers = [1,2,3,4]
