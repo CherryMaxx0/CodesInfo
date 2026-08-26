@@ -1,3 +1,32 @@
+This is an [[py_External_Library|External Library]] so we need to [[pip]] to install library into our [[py_.venv|virtual environment]] or global as your own need.
+So using powershell or command prompt, bashing this command:
+```powershell
+pip install numpy
+```
+will install numpy into your selected python environment if the environment is ==activated==
+>[!Note]
+>To check or to activate [[py_.venv|Virtual Environment]], go into this linked note.
+
+After install, bashing this command here:
+```powershell
+pip show numpy
+```
+
+^5caadd
+
+**OR
+these two below, if first one shows error.** 
+
+```powershell
+python -m pip show numpy
+```
+**OR**
+```powershell
+python -c "import numpy; print(numpy.__file__)"
+```
+
+>[!Danger]
+>Click [[pip#Reinstalling Pip.exe|Reinstall pip.exe]] to know how to fix the [[NumPy#^5caadd|issue]]. Without it being fixed, may cause future problems
 ## Difference using numpy with list
 Why Numpy even though there is already [[py_list|list]] in python?
 ### List (Standard Python)
