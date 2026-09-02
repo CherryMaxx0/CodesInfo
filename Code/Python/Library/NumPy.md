@@ -342,6 +342,14 @@ print(np.exp(numbers))
 ```
 *Output:*
 ```json
-
+[1.         2.71828183 7.3890561 ]
 ```
 ### Trigonometry
+```python
+angles = np.array([0, np.pi/2, np.pi])
+print(np.sin(angles))
+```
+*Output:*
+```json
+[0.0000000e+00 1.0000000e+00 1.2246468e-16]
+```
